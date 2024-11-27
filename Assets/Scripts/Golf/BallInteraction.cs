@@ -7,10 +7,10 @@ public class BallInteraction : MonoBehaviour
 {
     public int score = 0;
     private int highScore = 0;
-    public float minHitForce = 200f; // Минимальная сила удара
-    public float maxHitForce = 500f; // Максимальная сила удара
-    public float forceChangeInterval = 1f; // Интервал в секундах для изменения силы
-    private float currentHitForce; // Текущая сила удара
+    public float minHitForce = 200f;
+    public float maxHitForce = 500f;
+    public float forceChangeInterval = 1f;
+    private float currentHitForce;
 
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI highScoreText;
@@ -20,8 +20,8 @@ public class BallInteraction : MonoBehaviour
         highScore = PlayerPrefs.GetInt("HighScore", 0);
         UpdateHighScore();
 
-        currentHitForce = minHitForce; // Устанавливаем начальную силу удара
-        InvokeRepeating("ChangeHitForce", 0f, forceChangeInterval); // Каждую секунду меняем силу удара
+        currentHitForce = minHitForce;
+        InvokeRepeating("ChangeHitForce", 0f, forceChangeInterval);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -35,7 +35,7 @@ public class BallInteraction : MonoBehaviour
             if (rockRb != null)
             {
                 Vector3 direction = (collision.transform.position - transform.position).normalized;
-                rockRb.AddForce(direction * currentHitForce, ForceMode.Impulse); // Применяем текущую силу удара
+                rockRb.AddForce(direction * currentHitForce, ForceMode.Impulse);
             }
         }
     }
@@ -68,10 +68,8 @@ public class BallInteraction : MonoBehaviour
         UpdateHighScore();
     }
 
-    // Метод для изменения силы удара каждую секунду
     private void ChangeHitForce()
     {
-        // Меняем силу удара случайным образом в пределах от minHitForce до maxHitForce
         currentHitForce = Random.Range(minHitForce, maxHitForce);
     }
 

@@ -6,24 +6,22 @@ using UnityEngine;
 public class PlayerComponent : MonoBehaviour
 {
     [Header("Settings")]
-    public float swingSpeed = 200f; // Скорость вращения клюшки
-    public float angleA = 0f; // Угол начальной позиции (точка A)
-    public float angleB = 60f; // Угол конечной позиции (точка B)
+    public float swingSpeed = 200f;
+    public float angleA = 0f;
+    public float angleB = 60f;
 
-    private bool isSwinging = false; // Стремление к точке B
-    private bool isReturning = false; // Стремление к точке A
-    private float currentAngle = 0f; // Текущий угол поворота
+    private bool isSwinging = false;
+    private bool isReturning = false;
+    private float currentAngle = 0f;
 
     private void Start()
     {
-        // Устанавливаем начальный угол
         currentAngle = angleA;
         SetRotation(currentAngle);
     }
 
     private void Update()
     {
-        // Управление движением клюшки
         if (isSwinging)
         {
             currentAngle += swingSpeed * Time.deltaTime;
@@ -35,7 +33,7 @@ public class PlayerComponent : MonoBehaviour
             if (currentAngle < angleA) currentAngle = angleA;
         }
 
-        SetRotation(currentAngle); // Устанавливаем угол поворота клюшки
+        SetRotation(currentAngle);
     }
 
     public void StartSwing()
@@ -52,7 +50,6 @@ public class PlayerComponent : MonoBehaviour
 
     private void SetRotation(float angle)
     {
-        // Поворачиваем клюшку по оси X
         transform.localRotation = Quaternion.Euler(angle, 0f, 0f);
     }
 }

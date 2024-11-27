@@ -7,72 +7,63 @@ using UnityEngine.UI;
 
 public class LevelController : MonoBehaviour
 {
-    public GameObject gameOverPanel;  // Панель завершения игры
-    public GameObject gameHitPanel;   // Панель при попадании матыги по камню
-    public GameObject playButton;     // Кнопка для старта игры
-    private BallInteraction rockInteraction;  // Ссылка на скрипт взаимодействия с камнями
+    public GameObject gameOverPanel;
+    public GameObject gameHitPanel;
+    public GameObject playButton;
+    private BallInteraction rockInteraction;
 
     private void Start()
     {
-        rockInteraction = FindObjectOfType<BallInteraction>();  // Получаем ссылку на скрипт BallInteraction
+        rockInteraction = FindObjectOfType<BallInteraction>();
 
-        // Изначально ставим Time.timeScale в 0 (пауза)
         Time.timeScale = 0f;
 
-        // Привязываем кнопку Play
         if (playButton != null)
         {
             Button playBtn = playButton.GetComponent<Button>();
             if (playBtn != null)
             {
-                playBtn.onClick.AddListener(StartGame);  // При нажатии на кнопку Play запускаем игру
+                playBtn.onClick.AddListener(StartGame);
             }
         }
     }
 
-    // Метод для старта игры
+
     public void StartGame()
     {
-        // Скрываем кнопку Play
         if (playButton != null)
         {
             playButton.SetActive(false);
         }
 
-        // Снимаем паузу, увеличиваем timeScale
         Time.timeScale = 1f;
 
-        // Можно, например, сразу показать панель попаданий (если нужно)
         if (gameHitPanel != null)
         {
             gameHitPanel.SetActive(true);
         }
     }
 
-    // Метод завершения игры
     public void EndGame()
     {
         if (gameOverPanel != null)
         {
-            gameOverPanel.SetActive(true);  // Показываем панель завершения игры
-            gameHitPanel.SetActive(false);  // Скрываем панель при попадании
-            rockInteraction.EndGame();      // Завершаем взаимодействие с камнями
+            gameOverPanel.SetActive(true);
+            gameHitPanel.SetActive(false);
+            rockInteraction.EndGame();
         }
 
-        Time.timeScale = 0f;  // Останавливаем игру
+        Time.timeScale = 0f;
     }
 
-    // Метод для перезагрузки игры
     public void RestartGame()
     {
-        Time.timeScale = 1f;  // Возвращаем игру в нормальный режим
+        Time.timeScale = 1f;
 
         if (gameOverPanel != null)
         {
-            gameOverPanel.SetActive(false);  // Скрываем панель завершения игры
+            gameOverPanel.SetActive(false);
         }
-
-        // Перезагружаем текущую сцену
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

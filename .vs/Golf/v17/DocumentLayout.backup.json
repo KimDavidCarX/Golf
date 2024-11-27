@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Programs\\Golf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\golf\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\golf\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\golf\\ballinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\golf\\ballinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|c:\\programs\\golf\\assets\\scripts\\golf\\playercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\golf\\playercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|c:\\programs\\golf\\assets\\scripts\\golf\\ballspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\golf\\ballspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\golf\\ballspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\golf\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\golf\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\golf\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\golf\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\refreshtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\refreshtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|c:\\programs\\golf\\assets\\scripts\\golf\\ballinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\golf\\ballinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\cloudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cloudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\cloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|C:\\Programs\\Golf\\assets\\scripts\\golf\\playercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BEDA7BF-E63F-971D-68D1-EF713C702F95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\golf\\playercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,131 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BallSpawner.cs",
               "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\BallSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Golf\\BallSpawner.cs",
-              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\BallSpawner.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\Golf\\BallSpawner.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\BallSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Golf\\BallSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T12:53:48.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerComponent.cs",
               "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\PlayerComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Golf\\PlayerComponent.cs",
               "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\PlayerComponent.cs",
               "RelativeToolTip": "Assets\\Scripts\\Golf\\PlayerComponent.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwA4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T12:29:38.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BallInteraction.cs",
               "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\BallInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Golf\\BallInteraction.cs",
               "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\BallInteraction.cs",
               "RelativeToolTip": "Assets\\Scripts\\Golf\\BallInteraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T12:28:47.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "LevelController.cs",
               "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\LevelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Golf\\LevelController.cs",
               "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\LevelController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Golf\\LevelController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:28:07.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ball.cs",
-              "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\Ball.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Golf\\Ball.cs",
-              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\Ball.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\Golf\\Ball.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:27:49.773Z",
+              "WhenOpened": "2024-11-27T12:28:07.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RefreshTools.cs",
-              "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\RefreshTools.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RefreshTools.cs",
-              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\RefreshTools.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RefreshTools.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\Ball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Golf\\Ball.cs",
+              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Golf\\Ball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Golf\\Ball.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:14:05.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cloud.cs",
-              "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\Cloud.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Cloud.cs",
-              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Cloud.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Cloud.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:55:09.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CloudController.cs",
-              "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\CloudController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CloudController.cs",
-              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\CloudController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CloudController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:46:24.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Spawn.cs",
-              "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\Spawn.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawn.cs",
-              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\Spawn.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Spawn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:38:03.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Programs\\Golf\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Programs\\Golf\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:35:41.698Z"
+              "WhenOpened": "2024-11-27T12:27:49.773Z",
+              "EditorCaption": ""
             }
           ]
         }
