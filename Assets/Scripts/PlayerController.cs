@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public Spawn _spawn;
     public CloudController _cloud;
     public List<RefreshTools> _refreshTools;
+    public FirstScript _while;
 
     private void Update()
     {
@@ -24,6 +25,10 @@ public class PlayerController : MonoBehaviour
             {
                 villager.ChangeTool();
             }
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            _while.Action();
         }
     }
 }
