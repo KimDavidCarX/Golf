@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Cloud : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem _particleSystem;
+    [SerializeField] private ParticleSystem _particlSystem;
 
     public void PlayFX()
     {
-        _particleSystem.Play();
+        _particlSystem.Play();
     }
 
     public void StopFX()
     {
-        _particleSystem.Stop();
+        _particlSystem.Stop();
     }
 
     public void Start()
     {
-        _particleSystem.Stop();
+        _particlSystem.Stop();
     }
 }

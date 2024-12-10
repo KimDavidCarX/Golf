@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Spawn _spawn;
+    public Spawn _spawner;
     public CloudController _cloud;
     public List<RefreshTools> _refreshTools;
     public FirstScript _while;
@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-            _spawn.Spawner();
+            _spawner.Spawner();
         }
         if (Input.GetKeyDown(KeyCode.Z))
         {

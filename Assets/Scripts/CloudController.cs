@@ -6,7 +6,7 @@ public class CloudController : MonoBehaviour
 {
     private int _targetIndex = 0;
     private bool _moved = false;
-    public float _moveSpeed = 10f;
+    public float _moveSpeed = 9f;
     public Cloud _cloud;
     public Transform[] _targets;
 

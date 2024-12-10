@@ -198,11 +198,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1391116800}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2916151948399678898, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_Name
-      value: VillagerFarmer
+      value: ToolsSwicher
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678900, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_Controller
@@ -214,19 +214,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.297
+      value: 89.2556
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 22.246
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.508
+      value: 61.333397
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.95876896
+      value: 0.9676817
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -234,7 +234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2841868
+      value: -0.2521751
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1933,7 +1933,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0.034508705, b: 1, a: 1}
+      maxColor: {r: 0.077782154, g: 0, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -12856,9 +12856,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d62797d8077ab749a2097957d745753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tools:
-  - {fileID: 983583076}
+  _tool:
   - {fileID: 1730193010}
+  - {fileID: 983583076}
   - {fileID: 306615590}
   - {fileID: 433149777}
 --- !u!1 &867313192
@@ -17298,7 +17298,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1775489267}
-  - {fileID: 6889718}
   - {fileID: 648544553}
   m_Father: {fileID: 1041431953}
   m_LocalEulerAnglesHint: {x: 0, y: 3.808, z: 0}
@@ -19693,7 +19692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c02f73dea7d034c9664a21452e03ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 8816281015264179344, guid: a60886677df5be243bf191df74992061, type: 3}
+  _prefabs: {fileID: 8816281015264179344, guid: a60886677df5be243bf191df74992061, type: 3}
 --- !u!4 &1685655067
 Transform:
   m_ObjectHideFlags: 0
@@ -23343,7 +23342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dbfa37291641c4a805d0da0c1d3c01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawn: {fileID: 1685655066}
+  _spawner: {fileID: 1685655066}
   _cloud: {fileID: 263522139}
   _refreshTools:
   - {fileID: 866672298}
@@ -23418,7 +23417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4eda7dfb0c3af4096fdbbae57decbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _particleSystem: {fileID: 201264866}
+  _particlSystem: {fileID: 201264866}
 --- !u!137 &33186130445595464
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -25899,6 +25898,7 @@ SceneRoots:
   - {fileID: 1041431953}
   - {fileID: 965809337}
   - {fileID: 2120119041}
+  - {fileID: 6889717}
   - {fileID: 1685655067}
   - {fileID: 263522140}
   - {fileID: 4241627346791390}
