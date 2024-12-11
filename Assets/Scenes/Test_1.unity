@@ -19068,7 +19068,7 @@ Transform:
   m_GameObject: {fileID: 1594603972}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.85485524, z: -0, w: -0.51886666}
-  m_LocalPosition: {x: -0.7289419, y: 1.3889999, z: -0.079983294}
+  m_LocalPosition: {x: -0.7289419, y: 1.341, z: -0.079983294}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19087,7 +19087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 401dd350d24dd2745b8ef6cf29ba3bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swingSpeed: 250
+  swingSpeed: 150
   angleA: -30
   angleB: 45
 --- !u!1001 &1600624450
@@ -21337,7 +21337,7 @@ Transform:
   m_GameObject: {fileID: 1872067162}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.25217515, z: -0, w: 0.96768165}
-  m_LocalPosition: {x: 0.61357117, y: -0.4772854, z: -0.66280365}
+  m_LocalPosition: {x: 0.674, y: -0.4772854, z: -0.599}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21355,7 +21355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b6011141b9c09c46a53d30a11f6f82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rockPrefab: {fileID: 0}
+  rockPrefab: {fileID: 8816281015264179344, guid: 1853cfdbcf9b1934ba1b474f8fd35a08, type: 3}
   spawnPoint: {fileID: 1872067163}
   spawnRange: {x: 1, y: 5}
   rangeReduction: 0.2
@@ -25870,6 +25870,14 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 2115821211}
+    - target: {fileID: 1950840305741523397, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
+      propertyPath: maxHitForce
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950840305741523397, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
+      propertyPath: minHitForce
+      value: 130
+      objectReference: {fileID: 0}
     - target: {fileID: 1950840305741523397, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
       propertyPath: highScoreText
       value: 
