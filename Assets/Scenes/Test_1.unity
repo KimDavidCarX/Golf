@@ -19087,9 +19087,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 401dd350d24dd2745b8ef6cf29ba3bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swingSpeed: 150
+  swingSpeed: 300
   angleA: -30
-  angleB: 45
+  angleB: 15
 --- !u!1001 &1600624450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21337,7 +21337,7 @@ Transform:
   m_GameObject: {fileID: 1872067162}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.25217515, z: -0, w: 0.96768165}
-  m_LocalPosition: {x: 0.674, y: -0.4772854, z: -0.599}
+  m_LocalPosition: {x: 0.551, y: 0.188, z: -0.722}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25828,15 +25828,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 786463586666844352, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.046
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 786463586666844352, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.267
+      value: 0.331
       objectReference: {fileID: 0}
     - target: {fileID: 786463586666844352, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.066
+      value: -0.018
       objectReference: {fileID: 0}
     - target: {fileID: 786463586666844352, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25872,11 +25872,11 @@ PrefabInstance:
       objectReference: {fileID: 2115821211}
     - target: {fileID: 1950840305741523397, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
       propertyPath: maxHitForce
-      value: 150
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1950840305741523397, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
       propertyPath: minHitForce
-      value: 130
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1950840305741523397, guid: e818e9b34eb112a4da4f1332f55b4468, type: 3}
       propertyPath: highScoreText
